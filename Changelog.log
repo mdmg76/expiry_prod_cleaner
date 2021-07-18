@@ -1,0 +1,26 @@
+version 1.08 (15-7-2021):
+	- updated gui with file opener dialog
+	- optimized window looks.
+	- rowa_database.xlsx & aid.jpg should be in the exe folder.
+version 1.07 (14-7-2021):
+	- created gui with file name manual entry
+version 1.06 (13-7-2021):
+	- Disabled application leasae feature due to error.
+
+version 1.05 (12-7-2021):
+	- fixed error due to anomalous column name.
+
+version 1.04 (12-7-2021):
+	- added application lease till January 1st 2022
+
+version 1.03 (11-7-2021):
+	- now output file name is derived from raw data file name.
+
+version 1.02 (11-7-2021):
+	- added conditional to correct for user input missing the file extension.
+
+version 1.01 (11-7-2021):
+	- added user input to allow user to control raw data file name.
+
+version 1.00 (11-7-2021):
+	- First instane of working code.
