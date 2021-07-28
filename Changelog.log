@@ -1,13 +1,16 @@
 version 1.09 (28-7-2021):
 	- fixed exit button not working.
+
 version 1.08 (15-7-2021):
-	- updated gui with file opener dialog
+	- updated GUI with file opener dialog
 	- optimized window looks.
 	- rowa_database.xlsx & aid.jpg should be in the exe folder.
+
 version 1.07 (14-7-2021):
-	- created gui with file name manual entry
+	- created GUI with file name manual entry
+
 version 1.06 (13-7-2021):
-	- Disabled application leasae feature due to error.
+	- Disabled application lease feature due to error.
 
 version 1.05 (12-7-2021):
 	- fixed error due to anomalous column name.
@@ -25,4 +28,4 @@ version 1.01 (11-7-2021):
 	- added user input to allow user to control raw data file name.
 
 version 1.00 (11-7-2021):
-	- First instane of working code.
+	- First instance of working code.
