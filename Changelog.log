@@ -1,3 +1,5 @@
+version 1.09 (28-7-2021):
+	- fixed exit button not working.
 version 1.08 (15-7-2021):
 	- updated gui with file opener dialog
 	- optimized window looks.
