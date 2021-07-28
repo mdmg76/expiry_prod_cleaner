@@ -1,3 +1,5 @@
+# current version=1.09 (28-7-2021)
+import sys
 from tkinter import *
 from tkinter import filedialog as fd
 # from tkinter.font import BOLD
@@ -64,7 +66,7 @@ def start():
 
 
 def close():
-    return exit()
+    return sys.exit()
 
 
 calculate1 = Button(root, text='Select File', command=start,
