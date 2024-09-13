@@ -7,7 +7,7 @@ import pandas as pd
 from PIL import ImageTk, Image
 
 root = Tk()
-root.title('Rowa Expiry File Formatter')
+root.title('Expiry File Formatter')
 # root.iconbitmap('aidIcon.ico')
 canvas = Canvas(root, width=183, height=137)
 canvas.grid(row=1, column=1, padx=0, pady=0)
@@ -27,7 +27,7 @@ def start():
                                                 "*.csv"),
                                                ("all files",
                                                 "*.*")))
-    source_file = 'rowa_database.xlsx'
+    source_file = 'database.xlsx' #edit to match file name or rename file
 
     df_file = pd.read_csv(excel_file, sep=';')
     df_source = pd.read_excel(source_file)
