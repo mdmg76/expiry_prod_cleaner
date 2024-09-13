@@ -7,8 +7,8 @@ Usage:
 
 from setuptools import setup
 
-APP = ['gui_rowa_expiry_prod.py']
-DATA_FILES = ['aid.jpg','rowa_database.xlsx']
+APP = ['gui_expiry_prod_cleaner.py']
+DATA_FILES = ['aid.jpg','database.xlsx']
 OPTIONS = {
     'argv_emulation': True,
     'iconfile':'aidIcon1.icns',
@@ -17,7 +17,7 @@ OPTIONS = {
 
 setup(
     app=APP,
-    name='Rowa Expiry CSV-to-XLSX',
+    name='Expiry CSV-to-XLSX',
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
